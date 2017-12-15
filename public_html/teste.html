@@ -4,46 +4,62 @@
         
         <title>Avaliase</title>
         <meta charset="UTF-8">
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/meuestilo.css" rel="stylesheet" />
+        
         <link rel="icon" type="img/png" href="img/icone.png" />
     </head>
     
     <body>
-        <div class="av_container">
-            <div class="av-center av-logo-extenso">
-                <h4><strong>Perfil do usuário</strong></h4>
-                Confirme alguns dados sobre você
+        <div class="container">
+                <div class="av-center av-logo-extenso"> 
+                    <div class="img-responsive">
+                  <img src="img/foto.jpg" class="rounded-circle" alt="foto" width="204" height="136"> 
+                  </div>
+                  <br>
+                <h4>Perfil de usuário</h4>
+                <p>Confirme alguns dados sobre você</p>
             </div>
-            
-           <form class="col-auto">
-                <div class="form-group">                
-                        <input class="form-control" type="text" placeholder="Nome completo">
-                </div>
+               <form class="col-auto">
+                    <div class="form-group">                
+                            <input class="form-control" type="text" placeholder="Nome do usuário">
+                    </div>
 
-                <div class="form-group">                
-                    <select class="form-control">
-                        <option>Função</option>
-                    </select>
-                </div>
+                   <div class="form-group">                
+                        <select class="form-control">
+                            <option>Função</option>
+                        </select>
+                    </div>
 
-                <div class="form-group">                
-                    <select class="form-control">
-                        <option>Estado</option>
-                    </select>
-                </div>
+                    <div class="form-group">                
+                        <select class="form-control">
+                            <option>Número do Creci</option>
+                        </select>
+                    </div>
 
-                <div class="form-group">                
-                        <input class="form-control" type="text" placeholder="Numero CNAI">
-                </div>
-                <br>
-                <br>
-                <div class="form-group">                
-                    <button class="form-control btn btn-primary">Iniciar</button>
-                </div>
-            </form>
-        </div>
+                    <div class="form-group">                
+                        <select class="form-control">
+                            <option>Região do Creci</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">                
+                            <input class="form-control" type="text" placeholder="Numero CNAI">
+                    </div>
+                    <br>
+                    <div class="form-group">                
+                        <input class="form-control btn av-btn-azulpadrao" type="button" value="Iniciar">
+                    </div>
+                </form>
+            </div>
     </body>
 </html>
