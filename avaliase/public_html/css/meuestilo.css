@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/11/2017, 01:19:06
+    Author     : Talliny Dalla Nora e Juliana de F da Silva
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 390px;
+    margin: auto;
+    height:100%;
+}
+
+.av-center {
+    text-align: center;
+}
+
+.av-logo-extenso{
+    margin: 70px 0 70px 0;
+}
+
+.av-bg-azulpadrao{
+    background-color: #017cc2;
+}
+
+.av-font-branco{
+  color: #fff;
+}
+
+.versao-de-avalicao {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+
+    position: absolute;
+    bottom: 0;
+    width: 390px;
+    margin: 0 0 30px;
+}
+
+.av-logo{
+    width: 30%;
+    margin: 220px 0 10px 0;
+}
+
+/* ==================================================
+              BOTÕES
+   ================================================== */
+
+.av-btn-azulpadrao {
+  color: #fff;
+  background-color: #015b8e;
+  border-color: #015b8e;
+}
+.av-btn-azulpadrao:hover {
+  color: #fff;
+  background-color: #017cc2;
+  border-color: #017cc2;
+}
+.av-btn-azulpadrao:focus, .av-btn-azulpadrao.focus {
+  box-shadow: 0 0 0 0.2rem rgba(1, 124, 194, 0.5);
+}
+.av-btn-azulpadrao.disabled, .av-btn-azulpadrao:disabled {
+  background-color: #828588;
+  border-color: #828588;
+}
+.av-btn-azulpadrao:not([disabled]):not(.disabled):active, .av-btn-azulpadrao:not([disabled]):not(.disabled).active,
+.show > .av-btn-azulpadrao.dropdown-toggle {
+  color: #fff;
+  background-color: #828588;
+  border-color: #828588;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+/*=====================*/
+
+.av-btn-link{
+    font-weight:400;
+    color:#015b8e;
+    background-color:transparent
+}
+.av-btn-link:hover{
+    color:#017cc2;
+    text-decoration:underline;
+    background-color:transparent;
+    border-color:transparent
+}
+.av-btn-link.focus,.av-btn-link:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.av-btn-link.disabled,.av-btn-link:disabled{
+    color: #828588;
+}
+
+.av-preto{
+ background-color: black;   
+}
+/*=====================*/
+
+.av-btn-verde {
+  color: #fff;
+  background-color: #00d4aa;
+  border-color: #00d4aa;
+}
+.av-btn-verde:hover {
+  color: #fff;
+  background-color: #00c19b;
+  border-color: #00c19b;
+}
+.av-btn-verde:focus, .av-btn-verde.focus {
+  box-shadow: 0 0 0 0.2rem rgba(1, 124, 194, 0.5);
+}
+.av-btn-verde.disabled, .av-btn-verde:disabled {
+  background-color: #828588;
+  border-color: #828588;
+}
+.av-btn-verde:not([disabled]):not(.disabled):active, .av-btn-verde:not([disabled]):not(.disabled).active,
+.show > .av-btn-verde.dropdown-toggle {
+  color: #fff;
+  background-color: #828588;
+  border-color: #828588;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+/*=====================*/
+
+.av-btn-verdelink {
+  color: #00d4aa;
+  background-color: #fff ;
+  border-color: #00d4aa;
+}
+.av-btn-verdelink:hover {
+  color: #00c19b;
+  background-color: #ecfefa;
+  border-color: #00c19b;
+}
+.av-btn-verdelink:focus, .av-btn-verdelink.focus {
+  box-shadow: 0 0 0 0.2rem rgba(1, 124, 194, 0.5);
+}
+.av-btn-verdelink.disabled, .av-btn-verdelink:disabled {
+  background-color: #828588;
+  border-color: #828588;
+}
+.av-btn-verdelink:not([disabled]):not(.disabled):active, .av-btn-verdelink:not([disabled]):not(.disabled).active,
+.show > .av-btn-verdelink.dropdown-toggle {
+  color: #fff;
+  background-color: #828588;
+  border-color: #828588;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.av_container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
