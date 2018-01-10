@@ -156,6 +156,7 @@ body {
     color: #dfe3e9 !important;
 }
 
+
 .av-preto{
     background-color: black;   
 }
@@ -184,6 +185,14 @@ body {
     background-color: #828588;
     border-color: #828588;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.av-btn-azulpadraosembackground {
+    color: #fff;
+    border-color: #015b8e;
+    font-weight:400;
+    border: solid 1px #dfe3e9 !important;
+    border: solid 01px #dfe3e9;
 }
 
 /*=====================*/
@@ -222,7 +231,7 @@ body {
 }
 .av-layer {
     width: 7%;
-    border: solid 0.5px #017cc2;
+    border: solid 1px #017cc2;
     border-radius: 50%;    
     float: left;
 }
@@ -248,9 +257,22 @@ body {
     float: left;
     margin-top: 3%;
 }
-.coisas{  
+
+.av-linha-1-azul{
+    border: solid 1px #017CC2;
+    height: 1px;
+    width: 19%;
+    float: left;
+    margin-top: 3%;
+}
+
+.av-componente{  
     width: 100%;
     float: left;
+}
+.av-alinhamentopersonalizado{
+    margin: 0 auto;
+    width: 75%;
 }
 
 /*===============================================Falta arrumar=====================================*/
