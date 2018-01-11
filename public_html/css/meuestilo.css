@@ -100,6 +100,31 @@ body {
 }
 
 /*=====================*/
+.av-btn-pular {
+    color: #fff;
+    background-color: #edf3f8;
+    border-color: #edf3f8;
+}
+.av-btn-pular:hover {
+    color: #fff;
+    background-color: #017cc2;
+    border-color: #017cc2;
+}
+.av-btn-pular:focus, .av-btn-pular.focus {
+    box-shadow: 0 0 0 0.2rem rgba(1, 124, 194, 0.5);
+}
+.av-btn-pular.disabled, .av-btn-pular:disabled {
+    background-color: #828588;
+    border-color: #828588;
+}
+.av-btn-pular:not([disabled]):not(.disabled):active, .av-btn-pular:not([disabled]):not(.disabled).active,
+.show > .av-btn-pular.dropdown-toggle {
+    color: #fff;
+    background-color: #828588;
+    border-color: #828588;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
 .av-btn-azulinvertido {
     color: #015b8e;
     background-color: #edf3f8;
@@ -148,12 +173,11 @@ body {
 
 .av-btn-cinza{
     font-weight:400;
-    background-color: #dfe3e9;
-    border: solid 0.5px #dfe3e9 !important;
-    border: solid 0.5px #dfe3e9;
+    border: solid 0.5px #EDF3F8 !important;
 }
+
 .av-btn-cinza span{
-    color: #dfe3e9 !important;
+    color: #EDF3F8 !important;
 }
 
 
@@ -187,13 +211,6 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-.av-btn-azulpadraosembackground {
-    color: #fff;
-    border-color: #015b8e;
-    font-weight:400;
-    border: solid 1px #dfe3e9 !important;
-    border: solid 01px #dfe3e9;
-}
 
 /*=====================*/
 
@@ -231,7 +248,7 @@ body {
 }
 .av-layer {
     width: 7%;
-    border: solid 1px #017cc2;
+    border: solid 1px #015b8e;
     border-radius: 50%;    
     float: left;
 }
@@ -247,11 +264,11 @@ body {
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 .av-linha-1 {
-    border: solid 1px #dfe3e9;
+    border: solid 1px #EDF3F8;
     height: 1px;
     width: 19%;
     float: left;
@@ -259,7 +276,7 @@ body {
 }
 
 .av-linha-1-azul{
-    border: solid 1px #017CC2;
+    border: solid 1px #015B8E;
     height: 1px;
     width: 19%;
     float: left;
@@ -295,12 +312,35 @@ body {
     box-sizing: border-box;
 }
 
+.retangulo{
+    width: 20%;
+    padding: 10px;
+}
+
+.retangulo input{
+    text-align: center; 
+    font-size: 2em;
+}
+
+.btn-w44{
+    width:44%;
+}
+
+.btn-w56{
+    width:56%;
+}
+
+.m-top10{
+    margin-top:10%;
+}
+
 .hovercard{
     background-color: #015b8e;
 }
 .cardheader{
     height: 30px;
 }
+
 
 
 
