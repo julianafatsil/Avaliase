@@ -456,3 +456,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.av-paginacao{
+    margin-top: 3%;
+    font-size: 0.8em;
+    margin-left: 19%;
+}
+.av-icon-x{
+    border:1px solid #000;
+}
