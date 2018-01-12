@@ -11,44 +11,70 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/meuestilo.css" rel="stylesheet" />
         <link rel="icon" type="img/png" href="img/icone.png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </head>
     <body>
         <div class="container">
-            <section class="av-perfiltopo">
-                <div class="container">         
+            <section class="av-topo-imovel">
+                <div class="av-text-imovel float-left av-margin3">   
+                    <span class="av-color-branco">Cadastro de imóvel</span>
+                    <span class="av-color-verde">0 pontos</span>
                 </div>
+                <div class="float-left">
+                    1 / 5
+                </div>
+                <span class="glyphicon glyphicon-th-list"></span>
+                <div class="av-clear"></div>
             </section>
         </div>
 
 
         <div class="container">
-            <div class="carrega"></div>
-            <div class="carrega"></div>
-            <div class="carrega"></div>
-            <div class="carrega"></div>
-            <div class="carrega"></div>
+            <div class="av-carrega"></div>
+            <div class="av-carrega"></div>
+            <div class="av-carrega"></div>
+            <div class="av-carrega"></div>
+            <div class="av-carrega"></div>
         </div>
 
-        <div class="container m-top10">
-            <div class="w-75 float-left">
-                <span>+0 pontos</span>
-                <span>Destinação de uso</span>
-                <span>Qual a destinação de uso do imóvel?</span>
+        <div class="container m-top10 av-left3">
+            <div class="w-75 float-left av-text-imovel">
+                <span class="av-text-azul-cl">+0 pontos</span>
+                <span class="av-text-azul-padrao"><strong>Destinação de uso</strong></span>
+                <span class="av-text-azul-padrao">Qual a destinação de uso do imóvel?</span>
             </div>
+
             <div class="w-25 float-left">
-                <img class="img-cad-imo" src="img/la.jpg" >
+                <img class="av-img-cad-imo" src="img/la.jpg" >
             </div>
+            <div class="av-clear"></div>
         </div>
-        <div class="container m-top10">
-            <button class="av-btn av-bg-azul">residencial</button>
-            <div class="av-btn av-bg-azul">comercial</div>
-            <div class="av-btn av-bg-azul">uso misto</div>
+        <div class="container m-top10 av-left3">
+            <a class="form-control av-btn av-btn-azulpadrao" href="01302.html">residencial</a>
+            <a class="form-control av-btn av-btn-azulpadrao" href="01302.html">comercial</a>
+            <a class="form-control av-btn av-btn-azulpadrao" href="01302.html">uso misto</a>
         </div>
-        <div class="container m-top4">
-            <div class="av-btn av-bg-azul">industrial</div>
-            <div class="av-btn av-bg-azul">rural</div>
+        <div class="container av-m-top1 av-left3">
+            <a class="form-control av-btn av-btn-azulpadrao" href="01302.html">industrial</a>
+            <a class="form-control av-btn av-btn-azulpadrao" href="01302.html">rural</a>
+        </div>
+
+        <div class="container m-top10 av-left3">
+            <div class=" av-text-azul av-box-text">
+                <div class="w-10">
+                    <div class="av-icon-ajuda-meio"></div>
+                </div>  
+                <div class="w-90">
+                    Atenção:<br>
+                    A destinação de uso está relacionado ao zoneamento do imóvel, e pode influenciar na contrução ou impostos aplicáveis. Utilize a opção “uso misto” quando o imóvel estiver em sendo utilizado como residencial em uma zona comercial ou vice e versa …
+                </div>
+                <div class="av-clear"></div>
+            </div>
         </div>
     </body>
 </html>

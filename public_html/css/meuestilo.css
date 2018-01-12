@@ -13,6 +13,13 @@ body {
     width: 390px;
     margin: auto;
     height:100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .av-center {
@@ -28,6 +35,10 @@ body {
 }
 
 .av-font-branco{
+    color: #fff;
+}
+
+.av-font-azul{
     color: #fff;
 }
 
@@ -66,10 +77,19 @@ body {
     color: #edf3f8;
 }  
 
-.av-text-verde {
-    color: #00d4aa;
+.av-text-cinza-e {
+    color: #828588;
 }  
+.av-text-cinza-c {
+    color: #edf3f18;
+} 
 
+.av-text-azul-cl {
+    color: #017cc2;
+}
+.container a{
+    text-decoration: none;
+}
 /* ==================================================
               BOTÕES
    ================================================== */
@@ -311,48 +331,51 @@ body {
 .btn-w56{
     width:56%;
 }
+.av-m-top1 {
+    margin-top: 1%;
+}
 
 .m-top10{
     margin-top:10%;
 }
 
 .av-perfiltopo{
-padding: 3rem 2rem;
-margin-botton: 2rem;
-background-color: #015B8E;
+    padding: 3rem 2rem;
+    margin-botton: 2rem;
+    background-color: #015B8E;
 }
 
-.carrega{
+.av-carrega{
     background: #000;
     height: 5px;
     width: 20%;
     float:left;
 }
-.carrega-ok{
+.av-carrega-ok{
     background: #eee;
 }
-.img-cad-imo{
+.av-img-cad-imo{
     width: 90%;
     border-radius: 10%;
 }
 .av-btn{
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  color:#fff;
-  width: 30%;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color:#fff;
+    width: 30%;
 }
 
 
@@ -362,4 +385,74 @@ background-color: #015B8E;
 
 .m-top4{
     margin-top:4%;
+}
+.av-box-text{
+    border-radius: 2%;
+    border: solid 0.5px #d8d8d8;
+    background-color: #e9ebee;
+    padding: 3%;
+    font-family: roboto;
+    font-size: 0.7em;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+
+}
+.av-icon-ajuda-meio {
+    width: 20px;
+    height: 20px;
+    background-color: #9b9b9b;
+    float: left;
+}
+
+.av-text-imovel{
+    font-size: 0.8em;
+}
+.av-text-imovel span{
+    display: block;
+}
+.w-10 {
+    width: 10% !important;
+    float: left;
+}
+.w-90 {
+    width: 90% !important;
+    float: left;
+}
+.av-clear{
+    clear: both;
+}
+.av-left3{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.av-topo-imovel{
+    background-color: #015B8E;
+}
+.av-color-branco{
+    color: #fff;
+}
+.av-color-verde{
+    color: #00d4aa;
+}
+.av-margin3{
+    margin:3%;
+}
+.glyphicon-th-list:before{content:"\e012"}
+.glyphicon-th-list                { &:before { content: "\e012"; } }
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
