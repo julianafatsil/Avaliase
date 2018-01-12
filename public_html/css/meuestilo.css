@@ -122,13 +122,13 @@ body {
 /*=====================*/
 .av-btn-vermelho {
     color: #fff;
-    background-color: red;
-    border-color: red;
+    background-color: #dd5050;
+    border-color: #dd5050;
 }
 .av-btn-vermelho:hover {
-    color: #fff;
-    background-color: #017cc2;
-    border-color: #017cc2;
+    color:#fff;
+    background-color: #ff6666;
+    border-color: #ff6666;
 }
 .av-btn-vermelho:focus, .av-btn-vermelho.focus {
     box-shadow: 0 0 0 0.2rem rgba(1, 124, 194, 0.5);
@@ -145,7 +145,30 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-
+.av-btn-verde {
+    color: #fff;
+    background-color:#26ab6c;
+    border-color: #26ab6c;
+}
+.av-btn-verde:hover {
+    color:#fff;
+    background-color: #66ff66;
+    border-color: #66ff66;
+}
+.av-btn-verde:focus, .av-btn-verde.focus {
+    box-shadow:0 1px 0 0 rgba(1, 124, 194, 0.05);
+}
+.av-btn-verde.disabled, .av-btn-verde:disabled {
+    background-color: #828588;
+    border-color: #828588;
+}
+.av-btn-verde:not([disabled]):not(.disabled):active, .av-btn-verde:not([disabled]):not(.disabled).active,
+.show > .av-btn-vermelho.dropdown-toggle {
+    color: #fff;
+    background-color: #828588;
+    border-color: #828588;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
 
 .av-btn-pular {
     color: #fff;
@@ -353,6 +376,9 @@ body {
 
 .btn-w44{
     width:44%;
+}
+.av-btn-w47{
+    width:47%;
 }
 
 .btn-w56{
