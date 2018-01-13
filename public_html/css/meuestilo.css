@@ -13,6 +13,7 @@ body {
     width: 390px;
     margin: auto;
     height:100%;
+    font-size: 0.8em;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -380,6 +381,9 @@ body {
 .av-btn-w47{
     width:47%;
 }
+.av-btn-w42{
+    width:42%;
+}
 
 .btn-w56{
     width:56%;
@@ -388,12 +392,25 @@ body {
     width:50%;
 }
 
+.av-btn-w90{
+    width:90%;
+}
+
 .av-m-top1 {
     margin-top: 1%;
+}
+.av-m-top2 {
+    margin-top: 2%;
+}
+.av-m-top6 {
+    margin-top: 6%;
 }
 
 .m-top10{
     margin-top:10%;
+}
+.m-top22{
+    margin-top:22%;
 }
 
 .av-perfiltopo{
@@ -407,6 +424,10 @@ body {
     height: 5px;
     width: 20%;
     float:left;
+
+}
+.av-pad0{
+    padding-left: 0px !important;
 }
 .av-carrega-ok{
     background: #00d4aa;
@@ -427,7 +448,7 @@ body {
     user-select: none;
     border: 1px solid transparent;
     padding: 0.375rem 0.75rem;
-    font-size: 1rem;
+    font-size: 0.8em;
     line-height: 1.5;
     border-radius: 0.25rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -475,8 +496,33 @@ body {
     width: 10% !important;
     float: left;
 }
+.w-22 {
+    width: 22% !important;
+    float: left;
+}
 .w-90 {
     width: 90% !important;
+    float: left;
+}
+.w-92 {
+    width: 92% !important;
+    float: left;
+}
+.w-95 {
+    width: 95% !important;
+    float: left;
+}
+.w-30{
+    width: 30% !important;
+    float: left;
+}
+
+.w-85 {
+    width: 85% !important;
+    float: left;
+}
+.w-70{
+    width: 70% !important;
     float: left;
 }
 .av-clear{
@@ -497,6 +543,9 @@ body {
 }
 .av-margin3{
     margin:3%;
+}
+.av-m-top03 {
+    margin-top: 0.3%;
 }
 .glyphicon-th-list:before{content:"\e012"}
 .glyphicon-th-list                { &:before { content: "\e012"; } }
@@ -541,6 +590,43 @@ body {
     padding: 10% 18%;
     border-radius: 50%;
     color:#fff;
-}.av-pad-top4{
+}
+.av-pad-top4{
     padding-top: 4%;
+}
+.padding5{
+    padding-left:5%;
+}
+
+.av-title-imovel{
+    font-weight: bold;
+    line-height: normal;
+    color: #015b8e;
+    font-size: 0.8em;
+}
+.av-tipo-imovel{    
+    line-height: normal;
+    color: #54bbf6;
+    font-size: 0.8em;
+}
+.av-imovel-desc{
+    font-size: 0.8em;
+    color: #b5b9bd;
+}
+.av-border1{
+    border-top: 1px solid #eee;
+}
+.av-width-225{
+    width: 22.5%;
+}
+
+.m-top06 {
+    margin-top: 0.6%;
+}
+.av-sem-format {
+    color: #9b9b9b;
+    text-decoration: underline !important;
+}
+.av-m-right16{
+    margin-right: 16%;
 }
