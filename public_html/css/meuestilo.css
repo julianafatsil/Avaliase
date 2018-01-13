@@ -82,7 +82,7 @@ body {
     color: #828588;
 }  
 .av-text-cinza-c {
-    color: #edf3f18;
+    color: #EDF3F8;
 } 
 
 .av-text-azul-cl {
@@ -536,7 +536,7 @@ body {
     background-color: #015B8E;
 }
 .av-color-branco{
-    color: #fff;
+    color: #fff !important;
 }
 .av-color-verde{
     color: #00d4aa;
@@ -629,4 +629,53 @@ body {
 }
 .av-m-right16{
     margin-right: 16%;
+}
+
+.av-fom-campos input, .av-fom-campos select, .av-fom-campos option{
+    margin: 3%;
+    width: 93%;
+    font-size: 1.1em;
+    color:#b5b9bd;
+}
+
+
+.av-fom-campos input:focus, .av-fom-campos select:focus{
+    color: #1bb934;
+    background-color: #fff;
+    border-color: #1bb934;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem #00d4aa;
+}
+.av-img-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -14%;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 4px 4px #eee;
+}
+
+.av-icon-engrenagem{
+    background: #eee;
+    border-radius: 50%;
+    padding: 1% 1.5%;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 4px 4px #eee;
+    margin-left: -6%;
+}
+.av-bac-verde{
+    background-color: #00d4aa;
+}
+.av-logo-conf{
+    width: 80%;
+    margin: 16% 0%;
+}
+.av-text-conf{
+    width: 54%;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 4%;
+}
+.av-pad-bottom5{
+    padding-bottom: 5%;
 }

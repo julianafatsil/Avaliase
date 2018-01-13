@@ -9,7 +9,9 @@
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/meuestilo.css" rel="stylesheet" />
         <link rel="icon" type="img/png" href="img/icone.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+
     <body>
 
         <section class="av-perfiltopo">
@@ -18,49 +20,51 @@
         </section>
 
         <div class="container">
-                       
-                <div class="avatar av-center">
-                    <img class="" style="border-radius: 50%;width: 25%;" alt="" src="img/foto.jpg">
-                </div>                
-           
-            <div class="cardheader"></div>
-            <div class="info av-center">
-                <div>Perfil de usuário</div>
-                <div>Confirme alguns dados sobre você</div>
+            <div class="avatar av-center">
+                <img class="av-img-perfil" alt="" src="img/foto.jpg">
+                <i style="font-size:24px" class="fa av-icon-engrenagem">&#xf013;</i>
             </div>
+            <div class="av-clear"></div>
         </div>
-        <div class="av-center av-logo-extenso"> 
-            <form class="col-auto">
-                <div class="form-group">                
-                    <input class="form-control" type="text" placeholder="Nome do usuário">
-                </div>
+        
+        
+        <div class="container">
+            <section class="text-center av-m-top6">          
+                <h6><strong>Perfil de usuário</strong></h6>
+                <p class="av-alinhamentopersonalizado"> confirme alguns dados sobre você</p>
+            </section>
+        </div>
 
-                <div class="form-group">                
-                    <select class="form-control">
-                        <option>Função</option>
-                    </select>
-                </div>
+        <div class='container av-m-top10 av-fom-campos'>
+            <div class="form-group av-m-top6">                
+                <input class="form-control" type="text" placeholder="Nome do usuário">
+            </div>
 
-                <div class="form-group">                
-                    <select class="form-control">
-                        <option>Número do Creci</option>
-                    </select>
-                </div>
+            <div class="form-group">                
+                <select class="form-control">
+                    <option>Função</option>
+                </select>
+            </div>
 
-                <div class="form-group">                
-                    <select class="form-control">
-                        <option>Região do Creci</option>
-                    </select>
-                </div>
+            <div class="form-group">                
+                <select class="form-control">
+                    <option>Número do Creci</option>
+                </select>
+            </div>
 
-                <div class="form-group">                
-                    <input class="form-control" type="text" placeholder="Numero CNAI">
-                </div>
-                <br>
-                <div class="form-group">                
-                    <input class="form-control btn av-btn-azulpadrao" type="button" value="Iniciar">
-                </div>
-            </form>
+            <div class="form-group">                
+                <select class="form-control">
+                    <option>Região do Creci</option>
+                </select>
+            </div>
+
+            <div class="form-group">                
+                <input class="form-control" type="text" placeholder="Numero CNAI">
+            </div>
+            <br>
+            <div class="form-group">                
+                <input class="form-control btn av-btn-azulpadrao av-color-branco" type="button" value="Iniciar">
+            </div>
         </div>
     </body>
 </html>
