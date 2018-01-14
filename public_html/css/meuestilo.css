@@ -32,7 +32,7 @@ body {
 }
 
 .av-bg-azulpadrao{
-    background-color: #017cc2;
+    background-color: #015b8e;
 }
 
 .av-font-branco{
@@ -67,15 +67,15 @@ body {
    ================================================== */
 
 .av-text-azulpadrao {
-    color: #015b8e;
+    color: #015b8e !important;
 }    
 
 .av-text-verde {
-    color: #00d4aa;
+    color: #00d4aa !important;
 }  
 
 .av-text-azul {
-    color: #edf3f8;
+    color: #017cc2 !important;
 }  
 
 .av-text-cinza-e {
@@ -84,6 +84,9 @@ body {
 .av-text-cinza-c {
     color: #EDF3F8;
 } 
+.av-text-estrela-avaliacao{
+    color: #f5a623;
+}
 
 .av-text-azul-cl {
     color: #017cc2;
@@ -148,13 +151,13 @@ body {
 
 .av-btn-verde {
     color: #fff;
-    background-color:#26ab6c;
-    border-color: #26ab6c;
+    background-color:#66ff66;
+    border-color: #66ff66;
 }
 .av-btn-verde:hover {
     color:#fff;
-    background-color: #66ff66;
-    border-color: #66ff66;
+    background-color: #26ab6c;
+    border-color: #26ab6c;
 }
 .av-btn-verde:focus, .av-btn-verde.focus {
     box-shadow:0 1px 0 0 rgba(1, 124, 194, 0.05);
@@ -208,7 +211,7 @@ body {
     border-color: #017cc2;
 }
 .av-btn-verde:focus, .av-btn-verde.focus {
-     box-shadow:0 1px 0 0 rgba(1, 124, 194, 0.05);
+    box-shadow:0 1px 0 0 rgba(1, 124, 194, 0.05);
 }
 .av-btn-verde.disabled, .av-btn-verde:disabled {
     background-color: #828588;
@@ -234,7 +237,7 @@ body {
     border-color: #00d4aa;
 }
 .av-btn-des-cinza:focus, .av-btn-des-cinza.focus {
-     box-shadow:0 1px 0 0 rgba(1, 124, 194, 0.05);
+    box-shadow:0 1px 0 0 rgba(1, 124, 194, 0.05);
 }
 .av-btn-des-cinza.disabled, .av-btn-des-cinza:disabled {
     background-color: #828588;
@@ -457,6 +460,9 @@ body {
 .av-m-top6 {
     margin-top: 6%;
 }
+.av-m-botton5 {
+    margin-bottom:  5%;
+}
 
 .m-top10{
     margin-top:10%;
@@ -543,6 +549,11 @@ body {
 }
 .av-text-imovel span{
     display: block;
+}
+.av-text-branco{
+    font-size: 0.8em;
+    color: #fff;
+    line-height: 1.5;
 }
 .w-10 {
     width: 10% !important;
@@ -730,4 +741,71 @@ body {
 }
 .av-pad-bottom5{
     padding-bottom: 5%;
+}
+.av-icon-i{
+    border: 1px solid #007aff;
+    padding: 0% 1.5% 0% 1.5%;
+    border-radius: 50%;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 1%;
+    color: #015b8e;
+}
+
+.av-link-perfil span{
+    float: left;
+}
+.av-link-perfil i{
+    float: right;
+}
+
+.av-perfil{
+    padding: 1%;
+    border-bottom: 1px solid #dfe3e9;
+    color: #015b8e;
+}
+.av-perfil a{
+    color: #015b8e;
+}
+.av-btop-serilhado{
+    border-top: 1px dashed #dfe3e9;
+}
+.av-estrela-perfil{
+    background: #eee;
+}
+.av-estrela-forma:first-of-type{
+    color: #828588;
+    font-size: 0.6em;
+    float: left;
+    margin: 1% 7% 1% 4%;
+}
+.av-estrela-forma{
+    color: #828588;
+    font-size: 0.6em;
+    float: left;
+    margin: 1% 10%;
+}
+.av-estrela-forma:last-of-type{
+    margin: 1% 0% 1% 10%;
+}
+.av-engrenagem-perfil{
+    font-size: 25px !important;
+    color: #fff;
+    float: right;
+    margin-top: -10%;
+    margin-right: -12%;
+}
+.av-font08{
+    font-size: 0.8em;
+}
+
+.av-azul-imovel{
+    background: #017cc2;
+    width:92%;
+}
+.endereco-icon {
+  width: 4.5px;
+  height: 6.5px;
+  background-color: #04f7c7;
 }
