@@ -10,9 +10,9 @@ and open the template in the editor.
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 390px;
+    width: 100vmin;
     margin: auto;
-    height:100%;
+    height: 100vmax;
 
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -48,12 +48,8 @@ body {
     letter-spacing: 0.5px;
     text-align: center;
     color: #fff;
-    text-transform: uppercase;
-
-    position: absolute;
-    bottom: 0;
-    width: 390px;
-    margin: 0 0 30px;
+    
+    padding-top: 25px;
 }
 
 .av-logo{
